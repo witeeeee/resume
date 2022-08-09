@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a9a9b3;
+    background-color: #292a2d;
+    background-image: url("static/branch.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#header {
+    background-color: #252627; /* Grey background */
+    color: #a9a9b3;
+    margin: 0;
+    font-size: 40px; /* Big font size */
+    font-weight: bold;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 2px 1px 5px  rgb(104, 104, 104);
+}
+
+#profile:hover {
+    cursor: crosshair;
+}
+
+div {
+    margin: 20px;
+}
+
+.item {
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.item:hover{
+    background-color: rgb(19, 19, 19);
+    cursor: pointer;
+}
+
+.cert, p, h1, h2 {
+    cursor:default;
+}
+
+a{ 
+    color: #a9a9b3;
+    text-decoration: none;
+}
+
+p {
+    margin-left: 50px;
+}
